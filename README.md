@@ -14,15 +14,7 @@ O HelpApp é um sistema de gestão de atendimentos voluntários, desenvolvido co
 - **Problema Resolvido**: Facilitar o encontro entre solicitantes e voluntários.
 - **Público-Alvo**: Organizações e indivíduos que oferecem e solicitam ajuda voluntária.
 
-### Tecnologias e Frameworks Utilizados
-
-- **.NET Core**: Plataforma de desenvolvimento para o back-end, permitindo uma estrutura escalável e de alta performance.
-- **SQL Server**: Banco de dados relacional utilizado para persistência de dados, garantindo confiabilidade e integridade das informações.
-- **Azure Server Apps**: Plataforma de nuvem para a implantação do sistema, oferecendo escalabilidade e alta disponibilidade.
-- **Clean Architecture**: Arquitetura aplicada para organizar o código de forma que cada camada do sistema seja desacoplada, facilitando manutenção e testes.
-- **SOLID**: Princípios de design de software que foram seguidos para garantir que o sistema fosse flexível, sustentável e de fácil compreensão.
-
-## Funcionalidades
+### Funcionalidades
 
 - **Cadastro de Usuários**: Permite o cadastro de dois tipos de usuários no sistema: **Ajudantes**, voluntários que se cadastraram para oferecer ajuda, e **Solicitantes**, pessoas que precisam de ajuda e buscam voluntários.
 
@@ -32,7 +24,9 @@ O HelpApp é um sistema de gestão de atendimentos voluntários, desenvolvido co
 
 - **Login Seguro com Autenticação e Autorização**: Implementação de login seguro com autenticação (verificação de identidade) e autorização (controle de acesso) para garantir que apenas usuários autorizados possam acessar as funcionalidades.
 
-## Estrutura de Pastas
+## Estrutura do Projeto
+
+### Estrutura de Pastas
 
 - **HelpApp.API**: Pasta com a camada de interface que expõe os endpoints da API.
   
@@ -59,7 +53,7 @@ O HelpApp é um sistema de gestão de atendimentos voluntários, desenvolvido co
 - **HelpApp.Infra.IoC**: Pasta com a camada responsável pela injeção de dependências e configuração de serviços.
   - `DependencyInjectionAPI.cs`: Define a configuração dos serviços injetáveis do projeto.
  
-  ## Arquitetura do Projeto
+  ### Arquitetura do Projeto
 
   O HelpApp segue a Clean Architecture, garantindo a separação de responsabilidades e facilitando a manutenção, escalabilidade e testabilidade do sistema. O código é dividido em quatro camadas principais:
 
@@ -89,3 +83,10 @@ O projeto adota os seguintes padrões de arquitetura:
 - **I - Interface Segregation Principle**
 - **D - Dependency Inversion Principle**
 
+### Tecnologias e Frameworks Utilizados
+
+- **.NET Core**: Plataforma de desenvolvimento para o back-end, permitindo uma estrutura escalável e de alta performance.
+- **SQL Server**: Banco de dados relacional utilizado para persistência de dados, garantindo confiabilidade e integridade das informações.
+- **Azure Server Apps**: Plataforma de nuvem para a implantação do sistema, oferecendo escalabilidade e alta disponibilidade.
+- **Clean Architecture**: Arquitetura aplicada para organizar o código de forma que cada camada do sistema seja desacoplada, facilitando manutenção e testes.
+- **SOLID**: Princípios de design de software que foram seguidos para garantir que o sistema fosse flexível, sustentável e de fácil compreensão.
