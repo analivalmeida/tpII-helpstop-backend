@@ -22,4 +22,18 @@ O HelpApp é um sistema de gestão de atendimentos voluntários, desenvolvido co
 - **Clean Architecture**: Arquitetura aplicada para organizar o código de forma que cada camada do sistema seja desacoplada, facilitando manutenção e testes.
 - **SOLID**: Princípios de design de software que foram seguidos para garantir que o sistema fosse flexível, sustentável e de fácil compreensão.
 
+## Funcionalidades
+
+- **Cadastro de Usuários**: Permite o cadastro de dois tipos de usuários no sistema:
+  - **Ajudantes**: Voluntários que se cadastraram para oferecer ajuda.
+  - **Solicitantes**: Pessoas que precisam de ajuda e buscam voluntários.
+
+- **Registro e Gerenciamento de Atendimentos**: Permite registrar e gerenciar atendimentos voluntários, com a opção de visualizar o histórico e o status de cada atendimento.
+
+- **Histórico e Relatórios de Ações**: Os usuários podem acessar o histórico de atendimentos realizados e gerar relatórios com informações sobre os atendimentos passados.
+
+- **Login Seguro com Autenticação e Autorização**: Implementação de login seguro com autenticação (verificação de identidade) e autorização (controle de acesso) para garantir que apenas usuários autorizados possam acessar as funcionalidades.
+
+
+
 
