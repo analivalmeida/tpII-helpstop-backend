@@ -78,16 +78,19 @@ O projeto adota os seguintes padrões de arquitetura:
 ### Princípios SOLID Aplicados
 
 - **S - Single Responsibility Principle**
-
+Esse princípio afirma que uma classe deve ter apenas uma responsabilidade e uma razão para mudar, nada além disso. Quanto menor a classe, maior o entendimento que você vai ter dela e mais simples será de refatorar e se precisar excluir não vai ter tanto trabalho.
   
 - **O - Open/Closed Principle**
-  
+Esse princípio afirma que as classes devem estar abertas para extensãode novas funcionalidades mas fechadas para modificação do código já existente, o que minimiza o risco de introduzir bugs em funcionalidades já testadas.
+
 - **L - Liskov Substitution Principle**
-  
+Esse princípio afirma que uma classe derivada deve poder substituir a classe base sem alterar as funcionalidades. Um exemplo seria ser pagar o plano básico de um serviço de streaming e mudar para um plano mais premium, você vai ter os benefícios do plano básico + os benefícios do plano premium.
+
 - **I - Interface Segregation Principle**
-  
+Esse princípio afirma que uma interface não deve forçar classes a implementar métodos que elas não utilizam, ou seja, se o método não vai ser utilizado no momento mas vai ser no futuro, coloque ele apenas no futuro.
+
 - **D - Dependency Inversion Principle**
-  
+Esse princípio afirma que você deve inverter as dependências, ou seja, módulos de alto nível não devem depender de módulos de baixo nível, mas sim de abstrações. Abstrações não devem depender de detalhes, mas sim os detalhes que devem depender das abstrações. Isso facilita a troca de umplementações sem impactar tanto o código
 
 ### Tecnologias e Frameworks Utilizados
 
