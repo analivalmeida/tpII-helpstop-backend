@@ -117,4 +117,10 @@ Atualmente, os testes estão concentrados em três camadas principais:
   - Validação das regras de negócio das entidades (Category.cs, Product.cs)
   - Testes unitários para métodos críticos (exemplo: restrições de nome e preço)
 - **Application**
+  - Testes dos casos de uso (ProductService.cs, CategoryService.cs)
+  - Garantia de que os serviços chamam corretamente os repositórios
 - **Infrastructure**
+  - Testes nos repositórios (ProductRepositories.cs, CategoryRepositories.cs)
+  - Verificação da integração com o banco de dados (testes de persistência)
+ 
+**Observação:** A camada de Interface (API) não possui testes automatizados no momento, mas pode ser validada via Postman ou Swagger.
