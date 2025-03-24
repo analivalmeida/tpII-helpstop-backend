@@ -24,7 +24,7 @@ O HelpApp é um sistema de gestão de atendimentos voluntários, desenvolvido co
 
 - **Login Seguro com Autenticação e Autorização**: Implementação de login seguro com autenticação (verificação de identidade) e autorização (controle de acesso) para garantir que apenas usuários autorizados possam acessar as funcionalidades.
 
-## Estrutura do Projeto
+## Arquitetura do Projeto
 
 ### Estrutura de Pastas
 
@@ -53,17 +53,17 @@ O HelpApp é um sistema de gestão de atendimentos voluntários, desenvolvido co
 - **HelpApp.Infra.IoC**: Pasta com a camada responsável pela injeção de dependências e configuração de serviços.
   - `DependencyInjectionAPI.cs`: Define a configuração dos serviços injetáveis do projeto.
  
-### Arquitetura do Projeto
+### Arquitetura Utilizada
 
   O HelpApp segue a Clean Architecture, garantindo a separação de responsabilidades e facilitando a manutenção, escalabilidade e testabilidade do sistema. O código é dividido em quatro camadas principais:
 
-- Domain: O núcleo do sistema, contendo as regras de negócio.
+- **Domain:** O núcleo do sistema, contendo as regras de negócio.
 
-- Application: Implementação dos casos de uso e orquestração da lógica.
+- **Application:** Implementação dos casos de uso e orquestração da lógica.
 
-- Infrastructure: Persistência de dados e comunicação com serviços externos.
+- **Infrastructure:** Persistência de dados e comunicação com serviços externos.
 
-- Interface: Pontos de entrada do sistema, como controllers e front-end.
+- **Interface:** Pontos de entrada do sistema, como controllers e front-end.
 
 ### Padrões Utilizados
 
@@ -90,3 +90,24 @@ O projeto adota os seguintes padrões de arquitetura:
 - **Azure Server Apps**: Plataforma de nuvem para a implantação do sistema, oferecendo escalabilidade e alta disponibilidade.
 - **Clean Architecture**: Arquitetura aplicada para organizar o código de forma que cada camada do sistema seja desacoplada, facilitando manutenção e testes.
 - **SOLID**: Princípios de design de software que foram seguidos para garantir que o sistema fosse flexível, sustentável e de fácil compreensão.
+
+## Instruções para rodar o projeto
+
+### Pré-requisitos
+- Ter uma conta no GitHub
+- Ter as depências necessárias instaladas
+
+### Tutorial
+- Entre no repositório do projeto e copie o link
+- Abra o Explorador de Arquivos
+- Entre na pasta que deseja clonar o repositótio
+- Dê o comando "git clone https://github.com/analivalmeida/tpII-helpstop-backend.git"
+- Abra o Visual Studio e clique em  "Abrir um projeto ou solução" e selecione HelpApp.sln
+- Abra o arquivo **appsettings.json**
+- Edite a chave **ConnectionStrings** com os dados corretos do seu banco
+- Abra o Package Manager Console no Visual Studio (Tools > NuGet Package Manager > Package Manager Console) e execute: Update-Database
+- No VS clique no botão "Iniciar" com o ícone de play verde
+- **Testar pelo Swagger:** Acesse no navegador: http://localhost:5000/swagger
+- **Testar pelo Postman:** Envie GET, POST, PUT e DELETE para os endpoints da API
+
+## Camada de Testes
