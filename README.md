@@ -95,12 +95,11 @@ O projeto adota os seguintes padrões de arquitetura:
 
 ### Pré-requisitos
 - Ter uma conta no GitHub
-- Ter as depências necessárias instaladas
+- Ter as dependências necessárias instaladas
 
 ### Tutorial
-- Entre no repositório do projeto e copie o link
 - Abra o Explorador de Arquivos
-- Entre na pasta que deseja clonar o repositótio
+- Entre na pasta que deseja clonar o repositório e escreva na barra de pesquisa "cmd"
 - Dê o comando "git clone https://github.com/analivalmeida/tpII-helpstop-backend.git"
 - Abra o Visual Studio e clique em  "Abrir um projeto ou solução" e selecione HelpApp.sln
 - Abra o arquivo **appsettings.json**
