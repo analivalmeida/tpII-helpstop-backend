@@ -4,5 +4,5 @@
 
 ![Badge do Status](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-![Badge da Licençla](https://img.shields.io/github/license/usuário/repositorio)
+![Badge da Licença](https://img.shields.io/github/license/analivalmeida/tpII-helpstop-backend)
 
