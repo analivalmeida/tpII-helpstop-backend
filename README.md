@@ -53,7 +53,7 @@ O HelpApp é um sistema de gestão de atendimentos voluntários, desenvolvido co
 - **HelpApp.Infra.IoC**: Pasta com a camada responsável pela injeção de dependências e configuração de serviços.
   - `DependencyInjectionAPI.cs`: Define a configuração dos serviços injetáveis do projeto.
  
-  ### Arquitetura do Projeto
+### Arquitetura do Projeto
 
   O HelpApp segue a Clean Architecture, garantindo a separação de responsabilidades e facilitando a manutenção, escalabilidade e testabilidade do sistema. O código é dividido em quatro camadas principais:
 
