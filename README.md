@@ -24,9 +24,7 @@ O HelpApp é um sistema de gestão de atendimentos voluntários, desenvolvido co
 
 ## Funcionalidades
 
-- **Cadastro de Usuários**: Permite o cadastro de dois tipos de usuários no sistema:
-  - **Ajudantes**: Voluntários que se cadastraram para oferecer ajuda.
-  - **Solicitantes**: Pessoas que precisam de ajuda e buscam voluntários.
+- **Cadastro de Usuários**: Permite o cadastro de dois tipos de usuários no sistema: **Ajudantes**, voluntários que se cadastraram para oferecer ajuda, e **Solicitantes**, pessoas que precisam de ajuda e buscam voluntários.
 
 - **Registro e Gerenciamento de Atendimentos**: Permite registrar e gerenciar atendimentos voluntários, com a opção de visualizar o histórico e o status de cada atendimento.
 
