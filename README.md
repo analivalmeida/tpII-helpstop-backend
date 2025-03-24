@@ -4,5 +4,6 @@
 
 ![Badge do Status](https://img.shields.io/badge/status-em%20desenvolvimento-pink)
 
-![Badge da Licença](https://img.shields.io/github/license/analivalmeida/tpII-helpstop-backend)
+![License](https://img.shields.io/badge/license-MIT-pink)
+
 
