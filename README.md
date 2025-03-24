@@ -32,6 +32,31 @@ O HelpApp é um sistema de gestão de atendimentos voluntários, desenvolvido co
 
 - **Login Seguro com Autenticação e Autorização**: Implementação de login seguro com autenticação (verificação de identidade) e autorização (controle de acesso) para garantir que apenas usuários autorizados possam acessar as funcionalidades.
 
+## Estrutura de Pastas
 
+- **HelpApp.API**: Camada de interface que expõe os endpoints da API.
+  
+- **HelpApp.Application**: Camada de aplicação responsável pela lógica dos casos de uso.
+  - **Interfaces/**: Define contratos para os serviços da aplicação.
+    - `ICategoryService.cs`
+    - `IProductService.cs`
+  - **Services/**: Implementação da lógica de negócios específica da aplicação.
+    - `CategoryService.cs`
+    - `ProductService.cs`
+
+- **HelpApp.Domain**: Camada central da arquitetura, onde estão as entidades e regras de negócio.
+  - **Entities/**: Define os modelos do domínio.
+    - `Category.cs`
+    - `Product.cs`
+  - **Validation/**: Contém regras de validação do domínio.
+    - `DomainExceptionValidation.cs`
+
+- **HelpApp.Infra.Data**: Camada de infraestrutura responsável pelo acesso a dados.
+  - **Repositories/**: Implementação dos repositórios para persistência em banco de dados.
+    - `CategoryRepositories.cs`
+    - `ProductRepositories.cs`
+
+- **HelpApp.Infra.IoC**: Camada responsável pela injeção de dependências e configuração de serviços.
+  - `DependencyInjectionAPI.cs`: Define a configuração dos serviços injetáveis do projeto.
 
 
