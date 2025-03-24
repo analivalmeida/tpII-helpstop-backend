@@ -75,19 +75,19 @@ O HelpApp é um sistema de gestão de atendimentos voluntários, desenvolvido co
 |-------------------------------------------------------|
 |  Controllers: Recebem requisições e chamam a camada   |
 |  de Aplicação.                                        |
-+-------------------------------------------------------|
+|                                                       |
 |                   Application                         |
-|-------------------------------------------------------|
+|                                                       |
 |  Casos de uso: Orquestram a lógica de aplicação,      |
 |  chamando serviços e validando regras de negócio.     |
-+-------------------------------------------------------|
+|                                                       |
 |                      Domain                           |
-|-------------------------------------------------------|
+|                                                       |
 |  Entidades e regras de negócio. Não depende de nada   |
 |  externo. Implementa as validações essenciais.        |
-+-------------------------------------------------------|
+|                                                       |
 |                 Infrastructure                        |
-|-------------------------------------------------------|
+|                                                       |
 |  Repositórios: Comunicação com o banco de dados.      |
 |  Implementação de serviços externos (ex: autenticação)|
 |                                                       |
