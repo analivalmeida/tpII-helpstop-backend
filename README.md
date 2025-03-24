@@ -78,10 +78,16 @@ O projeto adota os seguintes padrões de arquitetura:
 ### Princípios SOLID Aplicados
 
 - **S - Single Responsibility Principle**
+
+  
 - **O - Open/Closed Principle**
+  
 - **L - Liskov Substitution Principle**
+  
 - **I - Interface Segregation Principle**
+  
 - **D - Dependency Inversion Principle**
+  
 
 ### Tecnologias e Frameworks Utilizados
 
