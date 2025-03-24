@@ -58,5 +58,41 @@ O HelpApp é um sistema de gestão de atendimentos voluntários, desenvolvido co
 
 - **HelpApp.Infra.IoC**: Pasta com a camada responsável pela injeção de dependências e configuração de serviços.
   - `DependencyInjectionAPI.cs`: Define a configuração dos serviços injetáveis do projeto.
+ 
+  ## Arquitetura do Projeto
+
+  O HelpApp segue a Clean Architecture, garantindo a separação de responsabilidades e facilitando a manutenção, escalabilidade e testabilidade do sistema. O código é dividido em quatro camadas principais:
+
+- Domain: O núcleo do sistema, contendo as regras de negócio.
+
+- Application: Implementação dos casos de uso e orquestração da lógica.
+
+- Infrastructure: Persistência de dados e comunicação com serviços externos.
+
+- Interface: Pontos de entrada do sistema, como controllers e front-end.
+
++--------------------------------------------------------+
+|                   Interface (API)                     |
+|--------------------------------------------------------|
+|  Controllers: Recebem requisições e chamam a camada   |
+|  de Aplicação.                                        |
++--------------------------------------------------------+
+|                   Application                         |
+|--------------------------------------------------------|
+|  Casos de uso: Orquestram a lógica de aplicação,      |
+|  chamando serviços e validando regras de negócio.     |
++--------------------------------------------------------+
+|                      Domain                           |
+|--------------------------------------------------------|
+|  Entidades e regras de negócio. Não depende de nada   |
+|  externo. Implementa as validações essenciais.        |
++--------------------------------------------------------+
+|                 Infrastructure                        |
+|--------------------------------------------------------|
+|  Repositórios: Comunicação com o banco de dados.      |
+|  Implementação de serviços externos (ex: autenticação)|
++--------------------------------------------------------+
+
+
 
 
