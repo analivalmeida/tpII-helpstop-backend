@@ -34,29 +34,29 @@ O HelpApp é um sistema de gestão de atendimentos voluntários, desenvolvido co
 
 ## Estrutura de Pastas
 
-- **HelpApp.API**: Camada de interface que expõe os endpoints da API.
+- **HelpApp.API**: Pasta com a camada de interface que expõe os endpoints da API.
   
-- **HelpApp.Application**: Camada de aplicação responsável pela lógica dos casos de uso.
-  - **Interfaces/**: Define contratos para os serviços da aplicação.
+- **HelpApp.Application**: Pasta com a camada de aplicação responsável pela lógica dos casos de uso.
+  - **Interfaces**: Subpasta que define contratos para os serviços da aplicação.
     - `ICategoryService.cs`
     - `IProductService.cs`
-  - **Services/**: Implementação da lógica de negócios específica da aplicação.
+  - **Services**: Subpasta que implementa a lógica de negócios específica da aplicação.
     - `CategoryService.cs`
     - `ProductService.cs`
 
-- **HelpApp.Domain**: Camada central da arquitetura, onde estão as entidades e regras de negócio.
-  - **Entities/**: Define os modelos do domínio.
+- **HelpApp.Domain**: Pasta com a camada central da arquitetura, onde estão as entidades e regras de negócio.
+  - **Entities**: Subpasta que define os modelos do domínio.
     - `Category.cs`
     - `Product.cs`
-  - **Validation/**: Contém regras de validação do domínio.
+  - **Validation/**: Subpasta que contém as regras de validação do domínio.
     - `DomainExceptionValidation.cs`
 
-- **HelpApp.Infra.Data**: Camada de infraestrutura responsável pelo acesso a dados.
-  - **Repositories/**: Implementação dos repositórios para persistência em banco de dados.
+- **HelpApp.Infra.Data**: Pasta com a camada de infraestrutura responsável pelo acesso a dados.
+  - **Repositories**: Subpasta que implementa os repositórios para persistência em banco de dados.
     - `CategoryRepositories.cs`
     - `ProductRepositories.cs`
 
-- **HelpApp.Infra.IoC**: Camada responsável pela injeção de dependências e configuração de serviços.
-  - `DependencyInjectionAPI.cs`: Define a configuração dos serviços injetáveis do projeto.
+- **HelpApp.Infra.IoC**: Pasta com a camada responsável pela injeção de dependências e configuração de serviços.
+  - `DependencyInjectionAPI.cs`: Subpasta que define a configuração dos serviços injetáveis do projeto.
 
 
