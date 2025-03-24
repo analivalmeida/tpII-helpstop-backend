@@ -106,8 +106,6 @@ O projeto adota os seguintes padrões de arquitetura:
 - Edite a chave **ConnectionStrings** com os dados corretos do seu banco
 - Abra o Package Manager Console no Visual Studio (Tools > NuGet Package Manager > Package Manager Console) e execute: Update-Database
 - No VS clique no botão "Iniciar" com o ícone de play verde
-- **Testar pelo Swagger:** Acesse no navegador: http://localhost:5000/swagger
-- **Testar pelo Postman:** Envie GET, POST, PUT e DELETE para os endpoints da API
 
 ## Camada de Testes
 
@@ -123,4 +121,19 @@ Atualmente, os testes estão concentrados em três camadas principais:
   - Testes nos repositórios (ProductRepositories.cs, CategoryRepositories.cs)
   - Verificação da integração com o banco de dados (testes de persistência)
  
-**Observação:** A camada de Interface (API) não possui testes automatizados no momento, mas pode ser validada via Postman ou Swagger.
+**Observação:** A camada de **Interface (API)** não possui testes automatizados no momento, mas pode ser validada via Postman ou Swagger.
+
+### Execução dos Teste
+
+Para rodar os testes, siga os passos abaixo:
+
+- Abra o terminal na raiz do projeto
+- Navegue até a pasta de testes
+- Execute o comando: "dotnet test"
+
+### Ferramentas
+
+O HelpApp utiliza as seguintes ferramentas para testes:
+
+- xUnit → Framework de testes unitários
+- FluentAssertions → Para tornar as asserções mais legíveis e expressivas
