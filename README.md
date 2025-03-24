@@ -4,6 +4,11 @@
 
 ![Badge do Status](https://img.shields.io/badge/status-em%20desenvolvimento-pink)
 
-![License](https://img.shields.io/badge/licença-MIT-pink)
+![Badge da Licença](https://img.shields.io/badge/licença-MIT-pink)
 
+
+***
+
+---
+___
 
