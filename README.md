@@ -138,5 +138,10 @@ O HelpApp utiliza as seguintes ferramentas para testes:
 - xUnit → Framework de testes unitários
 - FluentAssertions → Para tornar as asserções mais legíveis e expressivas
 
-  ## Agradecimentos
-  Obrigada por ter interesse no meu projeto e por ler até aqui! 🩷
+🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷
+
+## Agradecimentos
+Obrigada por ter interesse no meu projeto e por ler até aqui! 🩷
+
+🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷
+
