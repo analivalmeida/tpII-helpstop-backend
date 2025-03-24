@@ -75,8 +75,17 @@ O HelpApp é um sistema de gestão de atendimentos voluntários, desenvolvido co
 
 O projeto adota os seguintes padrões de arquitetura:
 
-- Clean Architecture: Separação de responsabilidades e desacoplamento entre camadas.
+- **Clean Architecture:** Separação de responsabilidades e desacoplamento entre camadas.
 
-- DDD (Domain-Driven Design): Modelagem orientada ao domínio para garantir que o código represente fielmente as regras do negócio.
+- **DDD (Domain-Driven Design):** Modelagem orientada ao domínio para garantir que o código represente fielmente as regras do negócio.
 
-- SOLID: Princípios para garantir modularidade e manutenção do código.
+- **SOLID:** Princípios para garantir modularidade e manutenção do código.
+
+### Princípios SOLID Aplicados
+
+- **S - Single Responsibility Principle**
+- **O - Open/Closed Principle**
+- **L - Liskov Substitution Principle**
+- **I - Interface Segregation Principle**
+- **D - Dependency Inversion Principle**
+
