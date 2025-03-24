@@ -114,7 +114,7 @@ O projeto adota os seguintes padrões de arquitetura:
 Atualmente, os testes estão concentrados em três camadas principais:
 
 - **Domain**
- - Validação das regras de negócio das entidades (Category.cs, Product.cs)
- - Testes unitários para métodos críticos (exemplo: restrições de nome e preço)
+  - Validação das regras de negócio das entidades (Category.cs, Product.cs)
+  - Testes unitários para métodos críticos (exemplo: restrições de nome e preço)
 - **Application**
 - **Infrastructure**
