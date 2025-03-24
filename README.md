@@ -110,3 +110,11 @@ O projeto adota os seguintes padrões de arquitetura:
 - **Testar pelo Postman:** Envie GET, POST, PUT e DELETE para os endpoints da API
 
 ## Camada de Testes
+
+Atualmente, os testes estão concentrados em três camadas principais:
+
+- **Domain**
+ - Validação das regras de negócio das entidades (Category.cs, Product.cs)
+ - Testes unitários para métodos críticos (exemplo: restrições de nome e preço)
+- **Application**
+- **Infrastructure**
